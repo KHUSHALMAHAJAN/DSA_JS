@@ -1,0 +1,206 @@
+/* Common Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0a0a3d;
+  padding: 15px 40px;
+  color: #fff;
+}
+
+.header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .btn,
+.auth-buttons .btn-secondary {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.auth-buttons .btn {
+  background: #ff9800;
+  color: white;
+}
+
+.auth-buttons .btn-secondary {
+  background: white;
+  color: #0a0a3d;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.hero-text p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.btn, .btn-secondary {
+  padding: 10px 15px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn {
+  background: #0033cc;
+  color: white;
+}
+
+.btn-secondary {
+  background: #ddd;
+}
+
+/* Hero Image */
+.hero-img {
+  position: relative;
+}
+
+.hero-img img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.tag {
+  position: absolute;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Gallery */
+.gallery {
+  padding: 40px;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+}
+
+.gallery .images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery .images img {
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* Footer */
+footer {
+  background: #0a0a3d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* =================== */
+/* Modal Styles */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-bottom: 15px;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-content input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.close {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}

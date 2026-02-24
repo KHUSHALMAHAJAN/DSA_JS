@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">CollegeDekho</div>
+    <nav>
+      <ul>
+        <li><a href="#">Colleges</a></li>
+        <li><a href="#">Exams</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Updates</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+      <button class="btn" id="loginBtn">Login</button>
+      <button class="btn-secondary" id="signupBtn">Signup</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Vishwatmak Om Gurudev College of Engineering</h1>
+      <p>Admission 2025 | Fees | Courses | Placement | Ranking</p>
+      <p><strong>Location:</strong> Thane, Maharashtra</p>
+      <button class="btn">Get Free Counselling</button>
+      <button class="btn-secondary">Shortlist</button>
+    </div>
+    <div class="hero-img">
+      <img src="https://media.collegedekho.com/media/img/institute/crawled_images/slide3.JPG?width=640" alt="College Building">
+      <div class="tag top-left">Year of Establishment: 2011</div>
+      <div class="tag bottom-right">Private</div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="images">
+      <img src="https://media.collegedekho.com/media/img/institute/crawled_images/slide2.JPG?width=640" alt="Gallery 1">
+      <img src="https://media.collegedekho.com/media/img/institute/crawled_images/slide3.JPG?width=640" alt="Gallery 2">
+      <img src="https://media.collegedekho.com/media/img/news/APPGCET_Web_Options_2025_to_be_released_on_September_12.png?width=300" alt="Gallery 3">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 CollegeDekho | All Rights Reserved</p>
+  </footer>
+
+  <!-- Login Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <label>Email</label>
+        <input type="email" required>
+        <label>Password</label>
+        <input type="password" required>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Signup Modal -->
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Signup</h2>
+      <form>
+        <label>Full Name</label>
+        <input type="text" required>
+        <label>Email</label>
+        <input type="email" required>
+        <label>Password</label>
+        <input type="password" required>
+        <button type="submit" class="btn-secondary">Signup</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
